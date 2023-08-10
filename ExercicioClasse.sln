@@ -3,20 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioClasse.Console", "ExercicioClasse.Console\ExercicioClasse.Console.csproj", "{B7820C57-D0CB-4217-853B-482BA97F6580}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExercicioClasse.Console", "ExercicioClasse.Console\ExercicioClasse.Console.csproj", "{B7820C57-D0CB-4217-853B-482BA97F6580}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "operacoes-aritmeticas", "operacoes-aritmeticas\operacoes-aritmeticas.csproj", "{BAE812C1-7358-4617-912E-D8EEDC949373}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B7820C57-D0CB-4217-853B-482BA97F6580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B7820C57-D0CB-4217-853B-482BA97F6580}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7820C57-D0CB-4217-853B-482BA97F6580}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7820C57-D0CB-4217-853B-482BA97F6580}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAE812C1-7358-4617-912E-D8EEDC949373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAE812C1-7358-4617-912E-D8EEDC949373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAE812C1-7358-4617-912E-D8EEDC949373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAE812C1-7358-4617-912E-D8EEDC949373}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D5C86D7-8A17-4BC4-A558-B932B9FAB1EC}
 	EndGlobalSection
 EndGlobal
