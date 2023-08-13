@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExercicioClasse.Console", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "operacoes-aritmeticas", "operacoes-aritmeticas\operacoes-aritmeticas.csproj", "{BAE812C1-7358-4617-912E-D8EEDC949373}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "biblioteca", "biblioteca\biblioteca.csproj", "{30B52C51-06FC-4F1F-9643-FA32C9CA173F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BAE812C1-7358-4617-912E-D8EEDC949373}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAE812C1-7358-4617-912E-D8EEDC949373}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAE812C1-7358-4617-912E-D8EEDC949373}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30B52C51-06FC-4F1F-9643-FA32C9CA173F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30B52C51-06FC-4F1F-9643-FA32C9CA173F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30B52C51-06FC-4F1F-9643-FA32C9CA173F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30B52C51-06FC-4F1F-9643-FA32C9CA173F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

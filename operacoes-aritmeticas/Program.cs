@@ -41,7 +41,7 @@ internal class Program
                 Console.WriteLine("Digite dois números para somar:");
                 calculadora.num1 = double.Parse(Console.ReadLine());
                 calculadora.num2 = double.Parse(Console.ReadLine());
-                double resultado = calculadora.Somar(calculadora.num1, calculadora.num2);
+                double resultado = calculadora.Somar();
                 calculadora.ImprimirResultado(resultado);
                 Console.WriteLine(continua);
                 Console.ReadKey();
@@ -54,7 +54,7 @@ internal class Program
                 Console.WriteLine("Digite dois números para subtrair:");
                 calculadora.num1 = double.Parse(Console.ReadLine());
                 calculadora.num2 = double.Parse(Console.ReadLine());
-                double resultado = calculadora.Subtrair(calculadora.num1, calculadora.num2);
+                double resultado = calculadora.Subtrair();
                 calculadora.ImprimirResultado(resultado);
                 Console.WriteLine(continua);
                 Console.ReadKey();
@@ -67,7 +67,7 @@ internal class Program
                 Console.WriteLine("Digite dois números para multiplicar:");
                 calculadora.num1 = double.Parse(Console.ReadLine());
                 calculadora.num2 = double.Parse(Console.ReadLine());
-                double resultado = calculadora.Multiplicar(calculadora.num1, calculadora.num2);
+                double resultado = calculadora.Multiplicar();
                 calculadora.ImprimirResultado(resultado);
                 Console.WriteLine(continua);
                 Console.ReadKey();
@@ -85,7 +85,7 @@ internal class Program
                     calculadora.num2 = double.Parse(Console.ReadLine());
                 }
 
-                double resultado = calculadora.Divide(calculadora.num1, calculadora.num2);
+                double resultado = calculadora.Divide();
                 calculadora.ImprimirResultado(resultado);
                 Console.WriteLine(continua);
                 Console.ReadKey();
